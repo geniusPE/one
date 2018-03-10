@@ -1,0 +1,269 @@
+[
+    {
+        "name": "crisu83/yii-img",
+        "version": "dev-tip",
+        "version_normalized": "dev-tip",
+        "source": {
+            "type": "hg",
+            "url": "https://bitbucket.org/Crisu83/yii-img",
+            "reference": "6e2fe714c1d393b6ffc8ac8cc930b6a6d62865f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/Crisu83/yii-img/get/6e2fe714c1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "description": "Img is a module for the Yii PHP framework. This module allows for easy image management within Yii-applications. It utilizes the awesome PHPThumb library to provide a wide range of image transformation options.",
+        "homepage": "http://www.yiiframework.com/extension/img"
+    },
+    {
+        "name": "jorgebg/yii-eoauth",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jorgebg/yii-eoauth.git",
+            "reference": "1fb534e33064fb87f51cdef45bc2542fde2638c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/jorgebg/yii-eoauth/archive/1fb534e33064fb87f51cdef45bc2542fde2638c3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "source",
+        "description": "Yii Framework Extension. EOAuthUserIdentity class implements IUserIdentity Yii interface and the OAuth protocol to authenticate a user.  Based on Google's software.",
+        "homepage": "https://github.com/jorgebg/yii-eoauth"
+    },
+    {
+        "name": "muayyad-alsadi/yii-eclientscript",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/muayyad-alsadi/yii-EClientScript.git",
+            "reference": "fa7ef35321359f412c30f26974c422b403e0527f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/muayyad-alsadi/yii-EClientScript/archive/fa7ef35321359f412c30f26974c422b403e0527f.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "source",
+        "description": "optimizing client script manager that can minify and combine files (extends CClientScript)",
+        "homepage": "https://github.com/muayyad-alsadi/yii-EClientScript"
+    },
+    {
+        "name": "vernes/yiimailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vernes/YiiMailer.git",
+            "reference": "8b02eb4b4f9b357a9c580f026d24d81829f2a260"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/vernes/YiiMailer/archive/8b02eb4b4f9b357a9c580f026d24d81829f2a260.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "source",
+        "description": "Yii extension for sending emails with layouts using PHPMailer",
+        "homepage": "https://github.com/vernes/YiiMailer"
+    },
+    {
+        "name": "yiisoft/yii",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii.git",
+            "reference": "feb02c8d157af578870d5ca6c7e1f80212108729"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/yiisoft/yii/archive/feb02c8d157af578870d5ca6c7e1f80212108729.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "description": "Yii PHP Framework",
+        "homepage": "https://github.com/yiisoft/yii"
+    },
+    {
+        "name": "hackerone/curl",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hackerone/curl.git",
+            "reference": "64dee6e292228cb3098100fdefc5d7781a09a7ea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/hackerone/curl/archive/64dee6e292228cb3098100fdefc5d7781a09a7ea.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "source",
+        "description": "Curl wrapper for Yii framework",
+        "homepage": "https://github.com/hackerone/curl"
+    },
+    {
+        "name": "phpnode/yiipassword",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpnode/yiipassword.git",
+            "reference": "d0583ed8fa5b9dbcfa4a46c12377e631aee90c61"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/phpnode/yiipassword/archive/d0583ed8fa5b9dbcfa4a46c12377e631aee90c61.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "source",
+        "description": "Password strategies for Yii",
+        "homepage": "https://github.com/phpnode/yiipassword"
+    },
+    {
+        "name": "clevertech/yiibooster",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/clevertech/YiiBooster.git",
+            "reference": "19b63c69d1eab35812e2c8ad8a3483e427554a7d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/clevertech/YiiBooster/archive/19b63c69d1eab35812e2c8ad8a3483e427554a7d.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "description": "YiiBooster",
+        "homepage": "https://github.com/clevertech/YiiBooster"
+    },
+    {
+        "name": "phpseclib/phpseclib",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpseclib/phpseclib.git",
+            "reference": "2c96af214bf1b5e29b707249108504b4e0041a21"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/2c96af214bf1b5e29b707249108504b4e0041a21",
+            "reference": "2c96af214bf1b5e29b707249108504b4e0041a21",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phing/phing": "~2.7",
+            "phpunit/phpunit": "~4.0",
+            "sami/sami": "~2.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "suggest": {
+            "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+            "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations."
+        },
+        "time": "2015-02-22 16:23:32",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "phpseclib\\": "phpseclib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "phpseclib/"
+        ],
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jim Wigginton",
+                "email": "terrafrost@php.net",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Patrick Monnerat",
+                "email": "pm@datasphere.ch",
+                "role": "Developer"
+            },
+            {
+                "name": "Andreas Fischer",
+                "email": "bantu@phpbb.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Hans-Jürgen Petrich",
+                "email": "petrich@tronic-media.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+        "homepage": "http://phpseclib.sourceforge.net",
+        "keywords": [
+            "BigInteger",
+            "aes",
+            "asn.1",
+            "asn1",
+            "blowfish",
+            "crypto",
+            "cryptography",
+            "encryption",
+            "rsa",
+            "security",
+            "sftp",
+            "signature",
+            "signing",
+            "ssh",
+            "twofish",
+            "x.509",
+            "x509"
+        ]
+    },
+    {
+        "name": "crisu83/yii-auth",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crisu83/yii-auth.git",
+            "reference": "c1b9108a41f78a46c77e073866410d10e283ac9a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/crisu83/yii-auth/archive/c1b9108a41f78a46c77e073866410d10e283ac9a.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "yii-extension",
+        "installation-source": "source",
+        "description": "Web UI for Yii's authorization manager.",
+        "homepage": "https://github.com/crisu83/yii-auth"
+    }
+]

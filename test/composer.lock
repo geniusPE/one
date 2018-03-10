@@ -1,0 +1,959 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "36131ee5d611fd11c9d315f029428c0a",
+    "packages": [
+        {
+            "name": "2amigos/yiistrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yiistrap.git",
+                "reference": "db3352a9764806d042b882de57559777e9da7b96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/2amigos/yiistrap/db3352a9764806d042b882de57559777e9da7b96.zip",
+                "reference": "db3352a9764806d042b882de57559777e9da7b96",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codeception/codeception": "@stable",
+                "crisu83/yii-composer": ">=1.0.0",
+                "yiisoft/yii": ">=1.1.13"
+            },
+            "type": "library",
+            "extra": {
+                "yii-install-writable": [
+                    "tests/_log"
+                ]
+            },
+            "autoload": {
+                "classmap": [
+                    "behaviors/",
+                    "components/",
+                    "form/",
+                    "helpers/",
+                    "widgets/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christoffer.niska@gmail.com",
+                    "homepage": "http://www.cniska.net/"
+                },
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com/"
+                }
+            ],
+            "description": "Twitter Bootstrap for the Yii PHP framework. Own maintained version.",
+            "keywords": [
+                "bootstrap",
+                "yii"
+            ],
+            "time": "2014-09-03 06:31:45"
+        },
+        {
+            "name": "2amigos/yiiwheels",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yiiwheels.git",
+                "reference": "3075d77874eac6de754544e2f780f9c2dc279428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/2amigos/yiiwheels/3075d77874eac6de754544e2f780f9c2dc279428.zip",
+                "reference": "3075d77874eac6de754544e2f780f9c2dc279428",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yiistrap": "dev-master"
+            },
+            "require-dev": {
+                "php": ">=5.3.0",
+                "yiisoft/yii": ">=1.1.13"
+            },
+            "type": "yii-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com/"
+                }
+            ],
+            "description": "Extension library for Yiistrap, Yii Twitter's Bootstrap.",
+            "keywords": [
+                "bootstrap",
+                "yii"
+            ],
+            "time": "2015-05-27 10:54:34"
+        },
+        {
+            "name": "clevertech/yiibooster",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clevertech/YiiBooster.git",
+                "reference": "19b63c69d1eab35812e2c8ad8a3483e427554a7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/clevertech/YiiBooster/archive/19b63c69d1eab35812e2c8ad8a3483e427554a7d.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "YiiBooster",
+            "homepage": "https://github.com/clevertech/YiiBooster"
+        },
+        {
+            "name": "crisu83/yii-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Crisu83/yii-auth.git",
+                "reference": "c1b9108a41f78a46c77e073866410d10e283ac9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Crisu83/yii-auth/c1b9108a41f78a46c77e073866410d10e283ac9a.zip",
+                "reference": "c1b9108a41f78a46c77e073866410d10e283ac9a",
+                "shasum": ""
+            },
+            "require": {
+                "crisu83/yiistrap": ">=1.0.0"
+            },
+            "require-dev": {
+                "yiisoft/yii": ">=1.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christoffer.niska@gmail.com",
+                    "homepage": "http://www.cniska.net/"
+                }
+            ],
+            "description": "Web UI for the authorization manager of Yii PHP framework.",
+            "keywords": [
+                "Authentication",
+                "rbac",
+                "yii"
+            ],
+            "time": "2013-12-02 12:00:42"
+        },
+        {
+            "name": "crisu83/yii-img",
+            "version": "dev-tip",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/Crisu83/yii-img",
+                "reference": "6e2fe714c1d393b6ffc8ac8cc930b6a6d62865f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/Crisu83/yii-img/get/6e2fe714c1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "Img is a module for the Yii PHP framework. This module allows for easy image management within Yii-applications. It utilizes the awesome PHPThumb library to provide a wide range of image transformation options.",
+            "homepage": "http://www.yiiframework.com/extension/img"
+        },
+        {
+            "name": "crisu83/yiistrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crisu83/yiistrap.git",
+                "reference": "2664cfee6126bbbbaa70632864ccff6d0f030575"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/crisu83/yiistrap/2664cfee6126bbbbaa70632864ccff6d0f030575.zip",
+                "reference": "2664cfee6126bbbbaa70632864ccff6d0f030575",
+                "shasum": ""
+            },
+            "require": {
+                "twbs/bootstrap": ">=3.3.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "~4.0",
+                "codeception/codeception": "@stable",
+                "crisu83/yii-composer": ">=1.0.0",
+                "yiisoft/yii": ">=1.1.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "2.0.x-dev"
+                },
+                "yii-install-writable": [
+                    "tests/_log"
+                ]
+            },
+            "autoload": {
+                "classmap": [
+                    "behaviors/",
+                    "components/",
+                    "form/",
+                    "helpers/",
+                    "widgets/",
+                    "gii/bootstrap/BootstrapCode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christoffer.niska@gmail.com",
+                    "homepage": "http://www.cniska.net/"
+                },
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com/"
+                }
+            ],
+            "description": "Twitter Bootstrap for the Yii PHP framework.",
+            "keywords": [
+                "bootstrap",
+                "yii"
+            ],
+            "time": "2015-05-14 14:46:42"
+        },
+        {
+            "name": "flow/jsonpath",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlowCommunications/JSONPath.git",
+                "reference": "35739e484dea9a1761cf21bf2fc2963eae61c283"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/FlowCommunications/JSONPath/35739e484dea9a1761cf21bf2fc2963eae61c283.zip",
+                "reference": "35739e484dea9a1761cf21bf2fc2963eae61c283",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "peekmo/jsonpath": "dev-master",
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Flow\\JSONPath": "src/",
+                    "Flow\\JSONPath\\Test": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Frank",
+                    "email": "stephen@flowsa.com"
+                }
+            ],
+            "description": "JSONPath implementation for parsing, searching and flattening arrays",
+            "time": "2016-11-29 15:21:40"
+        },
+        {
+            "name": "hackerone/curl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hackerone/curl.git",
+                "reference": "d17997d072331ba7eeb34308fd3d8d78b14be514"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/hackerone/curl/d17997d072331ba7eeb34308fd3d8d78b14be514.zip",
+                "reference": "d17997d072331ba7eeb34308fd3d8d78b14be514",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "curl-wrapper",
+            "autoload": {
+                "classmap": [
+                    "./Curl.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ganesh",
+                    "email": "hackerone@gmail.com",
+                    "homepage": "http://www.codevu.com/"
+                }
+            ],
+            "description": "Curl Wrapper for PHP",
+            "keywords": [
+                "curl",
+                "delete",
+                "get",
+                "header",
+                "http request",
+                "post",
+                "post file",
+                "put",
+                "symfony",
+                "yii curl"
+            ],
+            "time": "2014-11-14 14:27:57"
+        },
+        {
+            "name": "jorgebg/yii-eoauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jorgebg/yii-eoauth.git",
+                "reference": "1fb534e33064fb87f51cdef45bc2542fde2638c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jorgebg/yii-eoauth/archive/1fb534e33064fb87f51cdef45bc2542fde2638c3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "Yii Framework Extension. EOAuthUserIdentity class implements IUserIdentity Yii interface and the OAuth protocol to authenticate a user.  Based on Google's software.",
+            "homepage": "https://github.com/jorgebg/yii-eoauth"
+        },
+        {
+            "name": "muayyad-alsadi/yii-eclientscript",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muayyad-alsadi/yii-EClientScript.git",
+                "reference": "fa7ef35321359f412c30f26974c422b403e0527f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/muayyad-alsadi/yii-EClientScript/archive/fa7ef35321359f412c30f26974c422b403e0527f.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "optimizing client script manager that can minify and combine files (extends CClientScript)",
+            "homepage": "https://github.com/muayyad-alsadi/yii-EClientScript"
+        },
+        {
+            "name": "paragonie/constant_time_encoding",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/constant_time_encoding.git",
+                "reference": "e085e08c939de49707dbf64315d178d90fbc708d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/paragonie/constant_time_encoding/e085e08c939de49707dbf64315d178d90fbc708d.zip",
+                "reference": "e085e08c939de49707dbf64315d178d90fbc708d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\ConstantTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Steve 'Sc00bz' Thomas",
+                    "email": "steve@tobtu.com",
+                    "homepage": "https://www.tobtu.com",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)",
+            "keywords": [
+                "base16",
+                "base32",
+                "base32_decode",
+                "base32_encode",
+                "base64",
+                "base64_decode",
+                "base64_encode",
+                "bin2hex",
+                "encoding",
+                "hex",
+                "hex2bin",
+                "rfc4648"
+            ],
+            "time": "2016-07-11T20:32:06+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/paragonie/random_compat/634bae8e911eefa89c1abfbf1b66da679ac8f54d.zip",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2017-03-13T16:27:32+00:00"
+        },
+        {
+            "name": "phpnode/yiipassword",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpnode/yiipassword.git",
+                "reference": "53f78186849c3b45d4affd353b07bf11e030e4a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpnode/yiipassword/53f78186849c3b45d4affd353b07bf11e030e4a0.zip",
+                "reference": "53f78186849c3b45d4affd353b07bf11e030e4a0",
+                "shasum": ""
+            },
+            "type": "yii-extension",
+            "autoload": {
+                "psr-0": {
+                    "YiiPassword": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "ChristofferNiska@gmail.com",
+                    "homepage": "http://crisu83.me"
+                },
+                {
+                    "name": "Charles Pick",
+                    "email": "charles.pick@gmail.com",
+                    "homepage": "http://github.com/phpnode"
+                }
+            ],
+            "description": "Password strategies for the Yii PHP framework.",
+            "keywords": [
+                "bcrypt",
+                "password"
+            ],
+            "time": "2015-05-12 05:00:16"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "2b808030428d7c60b90d23f7371c3098b6b9c43a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpseclib/phpseclib/2b808030428d7c60b90d23f7371c3098b6b9c43a.zip",
+                "reference": "2b808030428d7c60b90d23f7371c3098b6b9c43a",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/constant_time_encoding": "^1|^2",
+                "paragonie/random_compat": "^1.4|^2.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "~4.0",
+                "sami/sami": "~2.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "suggest": {
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpseclib/bootstrap.php"
+                ],
+                "psr-4": {
+                    "phpseclib\\": "phpseclib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "time": "2017-07-16 17:10:37"
+        },
+        {
+            "name": "setasign/fpdi",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Setasign/FPDI.git",
+                "reference": "5b899b2b41463bf261aa69840fd30b50950a500c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Setasign/FPDI/5b899b2b41463bf261aa69840fd30b50950a500c.zip",
+                "reference": "5b899b2b41463bf261aa69840fd30b50950a500c",
+                "shasum": ""
+            },
+            "suggest": {
+                "setasign/fpdf": "FPDI will extend this class but as it is also possible to use \"tecnickcom/tcpdf\" as an alternative there's no fixed dependency configured.",
+                "setasign/fpdi-fpdf": "Use this package to automatically evaluate dependencies to FPDF.",
+                "setasign/fpdi-tcpdf": "Use this package to automatically evaluate dependencies to TCPDF."
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "filters/",
+                    "fpdi.php",
+                    "fpdf_tpl.php",
+                    "fpdi_pdf_parser.php",
+                    "pdf_context.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Slabon",
+                    "email": "jan.slabon@setasign.com",
+                    "homepage": "https://www.setasign.com"
+                }
+            ],
+            "description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents and use them as templates in FPDF. Because it is also possible to use FPDI with TCPDF, there are no fixed dependencies defined. Please see suggestions for packages which evaluates the dependencies automatically.",
+            "homepage": "https://www.setasign.com/fpdi",
+            "keywords": [
+                "fpdf",
+                "fpdi",
+                "pdf"
+            ],
+            "time": "2015-11-30T10:53:14+00:00"
+        },
+        {
+            "name": "setasign/fpdi-tcpdf",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Setasign/FPDI-TCPDF.git",
+                "reference": "871699d429fcbad6dc809d57c7c8026fd7f41e93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Setasign/FPDI-TCPDF/871699d429fcbad6dc809d57c7c8026fd7f41e93.zip",
+                "reference": "871699d429fcbad6dc809d57c7c8026fd7f41e93",
+                "shasum": ""
+            },
+            "require": {
+                "setasign/fpdi": "1.6.*",
+                "tecnickcom/tcpdf": "6.2.*"
+            },
+            "conflict": {
+                "setasign/fpdf": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "fpdi_bridge.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Slabon",
+                    "email": "jan.slabon@setasign.com",
+                    "homepage": "https://www.setasign.com"
+                }
+            ],
+            "description": "Kind of metadata package for dependencies of the latest versions of FPDI and TCPDF.",
+            "homepage": "https://www.setasign.com/fpdi",
+            "keywords": [
+                "TCPDF",
+                "fpdi",
+                "pdf"
+            ],
+            "time": "2015-11-30T11:09:50+00:00"
+        },
+        {
+            "name": "tecnickcom/tcpdf",
+            "version": "6.2.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tecnickcom/TCPDF.git",
+                "reference": "95c5938aafe4b20df1454dbddb3e5005c0b26f64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/tecnickcom/TCPDF/95c5938aafe4b20df1454dbddb3e5005c0b26f64.zip",
+                "reference": "95c5938aafe4b20df1454dbddb3e5005c0b26f64",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "config",
+                    "include",
+                    "tcpdf.php",
+                    "tcpdf_parser.php",
+                    "tcpdf_import.php",
+                    "tcpdf_barcodes_1d.php",
+                    "tcpdf_barcodes_2d.php",
+                    "include/tcpdf_colors.php",
+                    "include/tcpdf_filters.php",
+                    "include/tcpdf_font_data.php",
+                    "include/tcpdf_fonts.php",
+                    "include/tcpdf_images.php",
+                    "include/tcpdf_static.php",
+                    "include/barcodes/datamatrix.php",
+                    "include/barcodes/pdf417.php",
+                    "include/barcodes/qrcode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "homepage": "http://nicolaasuni.tecnick.com"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "PDFD32000-2008",
+                "TCPDF",
+                "barcodes",
+                "datamatrix",
+                "pdf",
+                "pdf417",
+                "qrcode"
+            ],
+            "time": "2017-04-26T08:14:48+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "9b7d1406b922300c5d01e99026e4fffc67445185"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/twbs/bootstrap/9b7d1406b922300c5d01e99026e4fffc67445185.zip",
+                "reference": "9b7d1406b922300c5d01e99026e4fffc67445185",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2016-09-22 10:06:30"
+        },
+        {
+            "name": "vernes/yiimailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vernes/YiiMailer.git",
+                "reference": "8b02eb4b4f9b357a9c580f026d24d81829f2a260"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/vernes/YiiMailer/archive/8b02eb4b4f9b357a9c580f026d24d81829f2a260.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "yii-extension",
+            "description": "Yii extension for sending emails with layouts using PHPMailer",
+            "homepage": "https://github.com/vernes/YiiMailer"
+        },
+        {
+            "name": "yiisoft/yii",
+            "version": "1.1.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "018a89e67c0f1e13b11630a26a953f1cb0678291"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii/018a89e67c0f1e13b11630a26a953f1cb0678291.zip",
+                "reference": "018a89e67c0f1e13b11630a26a953f1cb0678291",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "require-dev": {
+                "phing/phing": "2.*",
+                "phpunit/phpunit": "~3.7",
+                "phpunit/phpunit-selenium": "~1.4.0"
+            },
+            "bin": [
+                "framework/yiic"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "framework/YiiBase.php",
+                    "framework/yii.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Wei Zhuo",
+                    "email": "weizhuo@gmail.com",
+                    "role": "Project site maintenance and development"
+                },
+                {
+                    "name": "Sebastián Thierer",
+                    "email": "sebas@artfos.com",
+                    "role": "Component development"
+                },
+                {
+                    "name": "Jeffrey Winesett",
+                    "email": "jefftulsa@gmail.com",
+                    "role": "Documentation and marketing"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Yii Web Programming Framework",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii"
+            ],
+            "time": "2017-04-19T11:51:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "2amigos/yiistrap": 20,
+        "2amigos/yiiwheels": 20,
+        "clevertech/yiibooster": 20,
+        "crisu83/yii-auth": 20,
+        "crisu83/yii-img": 20,
+        "hackerone/curl": 20,
+        "jorgebg/yii-eoauth": 20,
+        "muayyad-alsadi/yii-eclientscript": 20,
+        "phpnode/yiipassword": 20,
+        "vernes/yiimailer": 20,
+        "phpseclib/phpseclib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

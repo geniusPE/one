@@ -1,0 +1,57 @@
+{
+    "name": "yiinitializr/advanced",
+    "description": "Advanced project structure for Yii PHP framework.",
+    "keywords": ["yii", "application", "web", "boilerplate", "template"],
+    "homepage": "http://2amigos.us",
+    "type": "yii-application",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "common/lib/vendor"
+    },
+    "authors": [
+        {
+            "name": "Antonio Ramirez Cobos",
+            "email": "amigo.cobos@gmail.com",
+            "homepage": "http://www.ramirezcobos.com"
+        },
+        {
+            "name": "Matt Tabin",
+            "email": "amigo.tabin@gmail.com",
+            "homepage": "http://2amigos.us"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "1.1.18",
+        "2amigos/yiistrap": "dev-master",
+        "2amigos/yiiwheels": "dev-master",
+        "clevertech/yiibooster": "dev-master",
+        "crisu83/yii-auth":"dev-master",
+        "crisu83/yii-img":"dev-tip",
+        "hackerone/curl":"dev-master",
+        "jorgebg/yii-eoauth":"dev-master",
+        "muayyad-alsadi/yii-eclientscript":"dev-master",
+        "phpnode/yiipassword":"dev-master",
+        "vernes/yiimailer":"dev-master",
+        "phpseclib/phpseclib": "dev-master",
+        "setasign/fpdi": "1.6.1",
+        "setasign/fpdi-tcpdf": "1.6.1",
+        "flow/jsonpath":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Yiinitializr": "common/lib/"
+        }
+    },
+    "scripts": {
+        "pre-install-cmd": "Yiinitializr\\Composer\\Callback::preInstall",
+        "post-install-cmd": "Yiinitializr\\Composer\\Callback::postInstall",
+        "post-update-cmd": "Yiinitializr\\Composer\\Callback::postUpdate",
+        "post-package-install": [
+            "Yiinitializr\\Composer\\Callback::postPackageInstall"
+        ],
+        "post-package-update": [
+            "Yiinitializr\\Composer\\Callback::postPackageUpdate"
+        ]
+    }
+}
